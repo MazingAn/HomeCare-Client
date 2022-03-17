@@ -1,0 +1,44 @@
+{
+  "id": "3252684",
+  "name": "home-care",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1454",
+      "name": "浓云",
+      "font_class": "nongyun",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "110429",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1177750",
+      "name": "新闻",
+      "font_class": "xinwen",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "9495515",
+      "name": "控制台",
+      "font_class": "kongzhitai",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "21226095",
+      "name": "视频通话",
+      "font_class": "020-videocallingapp",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    }
+  ]
+}
