@@ -40,36 +40,37 @@
 
 <style scoped>
   #main-menu-item {
-    width: 100px;
-    height: 140px;
-    margin: 20px;
-    display: block;
+    margin: 0.2em 1em;
+    width: 6em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
   }
 
   .circle-menu {
-    width: 100px;
-    height: 100px;
+    width: 6em;
+    height: 6em;
     background-image: radial-gradient(
       v-bind(startColor) 10%,
       v-bind(endColor) 100%
     );
-    border-radius: 50px;
-    box-shadow: v-bind(endColor) 0 0 4px 1px;
-    text-align: center;
+    border-radius: 3em;
+    box-shadow: v-bind(endColor) 0 0 0.5em 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .iconfont {
-    line-height: 100px;
-    font-size: 36px;
+    font-size: 2.5em;
     color: white !important;
   }
 
   .txt-menu {
-    text-align: center;
-    display: block;
-    margin: 10px 0;
-    width: 100px;
+    display: flex;
     color: white;
     font-size: 1.3em;
+    justify-content: center;
+    margin: 0.5em 0;
   }
 </style>
